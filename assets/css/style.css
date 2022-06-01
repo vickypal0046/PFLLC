@@ -1350,48 +1350,68 @@ section {
   text-align: center
 }
 
-.team-boxed .item .box {
-  text-align: center;
-  padding: 30px;
-  background-color: #fff;
-  box-shadow: inset;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  min-height: 430px
+.team_page_bg{
+  background-color: #f8f9fa;
 }
 
+.team-boxed .item .box {
+  padding: 30px 20px;
+  background-color: #fff;
+  box-shadow: inset;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  min-height: 250px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  border-radius: 20px;
+  position: relative;
+}
+
+.team-boxed .item .box p.title{
+  min-height: 35px;
+}
+
+.box p.description{
+  text-align: justify;
+}
 .team-boxed .item .name {
   font-weight: bold;
   margin-top: 28px;
   margin-bottom: 8px;
-  color: inherit
+  color: inherit;
+  font-size: 1.1rem;
+  text-align: left;
 }
 
 .team-boxed .item .title {
   text-transform: uppercase;
   font-weight: bold;
-  color: #d0d0d0;
+  color: #6c757d;
   letter-spacing: 2px;
-  font-size: 13px
+  font-size: 12px;
+  text-align: left;
+}
+
+.team-boxed .item .title::before{
+    content: "\2014\00A0";
 }
 
 .team-boxed .item .description {
   font-size: 15px;
-  min-height: 70px;
+  min-height: 90px;
 }
 
 .team-boxed .item img {
-  max-width: 160px
+  max-width: 130px;
+  position: absolute;
+  top: -14%;
+  right: 10%;
+  background: #f8f9fa!important;
+  padding: 10px;
 }
 
 .team-boxed .social {
   font-size: 18px;
   color: #a2a8ae
-}
-
-.team-boxed .social:hover {
-  font-size: 18px;
-  color: #f80808
 }
 
 .team-boxed .social a {
@@ -1404,7 +1424,7 @@ section {
 }
 
 .team-boxed .social a:hover {
-  opacity: 1
+  color: #025784;  
 }
 
 .fa {
@@ -1428,6 +1448,24 @@ section {
   border-radius: 50%;
 }
 
+.more_team {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.more_team a {
+  background: #d9232d;
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.more_team a:hover, .more_team a:focus:hover {
+  color: #fff;
+  background: #e1444d;
+}
 /* END TEAM */
 
 
