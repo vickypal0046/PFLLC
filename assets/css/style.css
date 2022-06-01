@@ -1358,7 +1358,7 @@ section {
   padding: 30px 20px;
   background-color: #fff;
   box-shadow: inset;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
   margin-top: 50px;
   min-height: 250px;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
@@ -1403,10 +1403,11 @@ section {
 .team-boxed .item img {
   max-width: 130px;
   position: absolute;
-  top: -14%;
+  top: -18%;
   right: 10%;
   background: #f8f9fa!important;
   padding: 10px;
+  cursor: context-menu;
 }
 
 .team-boxed .social {
@@ -1418,13 +1419,16 @@ section {
   color: inherit;
   margin: 0 10px;
   display: inline-block;
-  opacity: 0.7;
-  padding: 6px;
   bottom: 0;
 }
 
-.team-boxed .social a:hover {
-  color: #025784;  
+.team-boxed .social a i.bi.bi-linkedin {
+  font-size: 24px;
+  color: #0a66c2;
+}
+
+.team-boxed .social a i.bi.bi-linkedin:hover {
+  color: #0658ab;  
 }
 
 .fa {
@@ -1818,17 +1822,38 @@ section {
   font-family: 'Nunito Sans',sans-serif;
 }
 
-.footer .footer-top .social-links a {
+.footer .footer-top .social-links a i.bi.bi-facebook{
   font-size: 20px;
   display: inline-block;
-  color: var(--bs-red);
+  color: #1877f2;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
-
-.footer .footer-top .social-links a:hover {
-  color: #bb1120;
+.footer .footer-top .social-links a i.bi.bi-facebook:hover {
+  color: #0c63d3;
+}
+.footer .footer-top .social-links a i.bi.bi-linkedin{
+  font-size: 20px;
+  display: inline-block;
+  color: #0a66c2;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.footer .footer-top .social-links a i.bi.bi-linkedin:hover {
+  color: #0658ab;
+}
+.footer .footer-top .social-links a i.bi.bi-youtube{
+  font-size: 20px;
+  display: inline-block;
+  color: #ff0000;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.footer .footer-top .social-links a i.bi.bi-youtube:hover {
+  color: #ed0505;
 }
 
 .footer .footer-top h4 {
