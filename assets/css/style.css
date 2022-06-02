@@ -2839,6 +2839,59 @@ section {
   padding-left: 180px;
 }
 
+.ui-ux .col-md-8 h5{
+  color: #ed1c24;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.ui-ux-bottom{
+  /* margin-top: 100px; */
+}
+.ui-ux-bottom .row{
+  margin: 50px 0;
+}
+.ui-ux-bottom .row .col-md-4{
+  margin-top: 10px;
+}
+.ui-ux-box{
+  height: 350px;
+  /* border: 1px solid #ed1c24; */
+  border-radius: 20px;
+  padding: 30px;
+  background: #fff;
+
+}
+.ui-ux-bottom .row .col-md-4:hover .ui-ux-box{
+  margin-top: -10px;
+  box-shadow: 0 30px 30px #ed1c2450;
+  transition: 0.5s ease-in-out;
+  background: #ed1c24;
+  color: #fff;
+}
+.ui-ux-bottom .row .col-md-4:hover .ui-ux-box i{
+  color: #fff;
+}
+.ui-ux-bottom .row .col-md-4:hover .ui-ux-box h5{
+  color: #fff;
+}
+/* .ui-ux-box:hover{
+  background: #ed1c24;
+  color: #fff;
+}
+.ui-ux-box:hover i, .ui-ux-box:hover h5{
+  color: #fff;
+} */
+.ui-ux-box i{
+  font-size: 45px;
+  color: #0A0A7A;
+}
+.ui-ux-box h5{
+  color: #ed1c24;
+}
+.ui-ux-box p{
+  font-size: 16px;
+}
+
 
 
 /*------------ Consultings end------------------ */
