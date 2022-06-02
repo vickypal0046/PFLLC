@@ -702,12 +702,22 @@ section {
   padding: 10px;
 }
 
+.tech__title{
+  
+}
+
+.tech__title a{
+  color: #2678bd;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
 .core__description{
   padding: 0 30px;
 }
 
 .technologies-main_container img {
-  height: 80px;
+  height: 50px;
 }
 
 .tech-box{
@@ -721,7 +731,6 @@ section {
 
 .tech__icon:hover{
   filter: none;
-  cursor: pointer;
 }
 
 .tech__title:hover{
@@ -2019,3 +2028,171 @@ section {
 
 
 /*------------ Consultings end------------------ */
+
+/****technology page tab css start here*****/
+.technology-page{
+  background-color: #f8f9fa;
+}
+.technology-tab li.nav-item {
+  width: 16%;
+}
+.technology-tab li div.arrow-down{
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 22px solid #ddd;
+    position: absolute;
+    top: -1px;
+    left: calc(50% - 20px);
+}
+.technology-tab li a.nav-link{
+  position: relative;
+  text-align: center;
+  padding: 40px 10px;
+  background-color: #eee;
+  box-shadow: 0 0 0 1px #ddd !important;
+  top: 15px;
+  transition: top .2s !important;
+  border-bottom: 0;
+  font-size: 1.65em;
+  font-weight: 300;
+  transition: .2s !important;
+  color: #333 !important;
+  display: block;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  min-height: 220px;
+}
+.technology-tab li a.nav-link span{
+  padding: 15px 0 5px;
+  color: #666;
+}
+.technology-tab li a.nav-link span.fa{
+  display: inline-block;
+  font-size: 40px;
+  width: 100%;
+  padding: 15px 0 5px;
+  color: #666;
+}
+.technology-tab li a.nav-link span.tab_text.hidden-xs {
+  font-size: 20px;
+}
+.technology-tab li a.active{
+  background-color: #fff !important;
+  box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+  padding-bottom: 30px;
+  border-top: 0;
+}
+.technology-tab li a.active div.arrow-down {
+  display: block;
+}
+.technology-tab li a.active span  {
+  color: #333;
+}
+.tab_content_css{
+  border-color: transparent;
+  box-shadow: 0 -2px 0 -1px #fff, 0 0 0 1px #ddd;
+  padding: 30px 15px 15px;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 50px;
+  width: 95%;
+}
+
+.tab_inner_div {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;  */
+}
+
+.tab_inner_div .box {
+  position: relative;
+  width: 32%;
+  margin: 0 10px 15px 0;
+  height: 75px;
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px rgb(0 0 0 / 3%);
+}
+
+/* .tab_inner_div .box:nth-child(1) {
+  transform: translateX(-70px);
+  transition: 0.5s ease-in-out;
+}
+
+.tab_inner_div .box:nth-child(3) {
+  transform: translateX(70px);
+  transition: 0.5s ease-in-out;
+}
+
+.tab_inner_div:hover .box:nth-child(1) {
+  transform: translateX(0px);
+}
+
+.tab_inner_div:hover .box:nth-child(3) {
+  transform: translateX(0px);
+} */
+
+.tab_inner_div .box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: var(--color);
+  transition: 0.5s ease-in-out;
+}
+
+.tab_inner_div .box:hover::before {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab_inner_div .box .content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.tab_inner_div .box .content .icon {
+  position: relative;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  color: var(--color);
+  transition: 0.5s ease-in-out;
+}
+
+.tab_inner_div .box:hover .content .icon {
+  color: #fff;
+}
+
+.tab_inner_div .box .content .text h3 {
+  font-weight: 500;
+  color: var(--color);
+  transition: 0.5s ease-in-out;
+  font-size: 16px;
+}
+
+.tab_inner_div .box .content .text p {
+  font-size: 0.9em;
+  color: #999;
+  transition: 0.5s ease-in-out;
+}
+
+.tab_inner_div .box:hover .content .text h3,
+.tab_inner_div .box:hover .content .text p {
+  color: #fff;
+}
