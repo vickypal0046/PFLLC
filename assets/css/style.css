@@ -2022,12 +2022,55 @@ section {
 .testing-bg{
   width: 100%;
   background: url("/assets/img/testing.png") center no-repeat;
-  background-size: contain;
-  height: 450px;
+  background-size: auto 60%;
+
+}
+.testing-bg i{
+  color: #0A0A7A;
+  font-size: 45px;
+}
+.testing-bg h5{
+  color: #ed1c24;
+  padding-top: 5px;
 }
 .testing-left{
-  margin-top: 20px;
+  margin: 100px 20px 0 0;
+  text-align: right;
 }
+.testing-left .row{
+  margin-top: 10px;
+}
+.testing-right{
+  margin: 100px 0 0 20px;
+  text-align: left;
+}
+.testing-right .row{
+  margin-top: 10px;
+}
+/* .bi-phone-fill{
+  position: relative;
+}
+.bi-gear-wide{
+  position: absolute;
+} */
+
+.testing-left .para-margin p{
+  padding-left: 60px;
+}
+.testing-right .para-margin p{
+  padding-right: 60px;
+}
+.selenium-icon{
+  width: 45px;
+  padding-top: 10px;
+}
+.testing-left-middle{
+  padding-right: 180px;
+}
+.testing-right-middle{
+  padding-left: 180px;
+}
+
 
 
 /*------------ Consultings end------------------ */
