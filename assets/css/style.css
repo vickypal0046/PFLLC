@@ -787,7 +787,8 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
   transition: all 0.5s;
   z-index: 997;
-  padding: 0;
+  padding: 0 40px;
+
 }
 
 @media (max-width: 992px){
@@ -1565,7 +1566,6 @@ section {
 }
 
 .about_image img {
-    height: 50vh;
     width: auto;
     text-align: -webkit-center;
 }
@@ -1656,9 +1656,6 @@ section {
 /* ----------------------------------------------------------------
     [ Start Portfolio ]
 -----------------------------------------------------------------*/
-.portfolio {
-  background-color: #f4f4ff;
-}
 
 .port-container{
   position: relative;
@@ -1780,6 +1777,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
+#testimonials, #about, #portfolio{
+  background: rgb(250, 250, 250);
+}
 .testimonial-container{
   padding: 0 4rem;
 }
