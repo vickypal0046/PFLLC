@@ -1980,6 +1980,8 @@ section {
   opacity: 1;
   visibility: visible;
 }
+
+/*------------ Consultings start------------------ */
 .web-mobile-app img{
   width: 100%;
   height: auto;
@@ -2003,3 +2005,17 @@ section {
   background: url("/assets/img/arrow-left.png") left 12px no-repeat;
   padding: 5px 0 5px 25px;
 }
+.mobile-web-app h5{
+  color: #ed1c24;
+  padding-top: 5px;
+}
+.mobile-web-app i{
+  color: #0A0A7A;
+  font-size: 45px;
+}
+.mobile-web-app .features-side .row{
+  margin-top: 10px;
+}
+
+
+/*------------ Consultings end------------------ */
