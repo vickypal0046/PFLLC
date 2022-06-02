@@ -705,6 +705,9 @@ section {
 .core__description{
   padding: 0 30px;
 }
+.core__description span{
+  color: #444;
+}
 
 .technologies-main_container img {
   height: 80px;
