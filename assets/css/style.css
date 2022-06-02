@@ -2016,6 +2016,15 @@ section {
 .mobile-web-app .features-side .row{
   margin-top: 10px;
 }
+.testing-bg{
+  width: 100%;
+  background: url("/assets/img/testing.png") center no-repeat;
+  background-size: contain;
+  height: 450px;
+}
+.testing-left{
+  margin-top: 20px;
+}
 
 
 /*------------ Consultings end------------------ */
