@@ -1917,3 +1917,26 @@ section {
   opacity: 1;
   visibility: visible;
 }
+.web-mobile-app img{
+  width: 100%;
+  height: auto;
+}
+.dev-ops-img img{
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.we-offering .media-body{
+  margin-top: 20px;
+}
+.we-offering .media-body h5{
+  color: #ed1c24;
+}
+.dev-ops-body ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.dev-ops-body ul li{
+  background: url("/assets/img/arrow-left.png") left 12px no-repeat;
+  padding: 5px 0 5px 25px;
+}
