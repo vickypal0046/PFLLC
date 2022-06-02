@@ -2933,11 +2933,11 @@ section {
   border-radius: 4px 4px 0 0;
   min-height: 230px;
 }
-.technology-tab li a.nav-link span{
+.technology-tab li a.nav-link img{
   padding: 15px 0 5px;
   color: #666;
 }
-.technology-tab li a.nav-link span.fa{
+.technology-tab li a.nav-link i{
   display: inline-block;
   font-size: 40px;
   width: 100%;
