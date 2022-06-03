@@ -793,8 +793,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px){
   #header{
-    padding: 5px;
-  }
+    /* padding: 5px; */
+    display: block !important;
+  }  
 }
 
 #header.header-scrolled {
@@ -3098,4 +3099,85 @@ section {
 .tab_inner_div .box:hover .content .text h3,
 .tab_inner_div .box:hover .content .text p {
   color: #fff;
+}
+
+/**media query start here**/
+/** X-Small devices (portrait phones, less than 576px) **/
+@media (max-width: 575.98px) {
+  .navbar .getstarted{
+    width: max-content;
+  }
+  .slider__text-item-head {
+    top: 20vh;
+    left: 15vw;
+  }
+  .slider__text-item-info {
+    top: 36vh;
+  }
+  .about_image {
+    margin: 20px 0 40px 0;
+  }
+  .core__main {
+    margin-bottom: 2rem;
+    width: 46%;
+    padding: 2%;
+  }
+  .port-container{
+    margin-bottom: 2rem;
+  }
+  .technology-tab li.nav-item {
+    width: 33.33%;
+  }
+  .technology-tab li a.nav-link{
+    padding: 25px 10px;
+    min-height: 210px;
+  }
+  .tab_inner_div .box{
+    width: 47%;
+  }
+}
+
+/** Small devices (landscape phones, less than 768px) **/
+@media (max-width: 767.98px) { 
+  .navbar .getstarted{
+    width: max-content;
+  }
+  .slider__text-item-head {
+    top: 20vh;
+    left: 15vw;
+  }
+  .slider__text-item-info {
+    top: 36vh;
+  }
+  .about_image {
+    margin: 20px 0 40px 0;
+  }
+  
+}
+
+/** Medium devices (tablets, less than 992px) **/
+@media (max-width: 991.98px) {
+  .navbar .getstarted{
+    width: max-content;
+  }
+  .slider__text-item-head {
+    top: 20vh;
+    left: 15vw;
+  }
+  .slider__text-item-info {
+    top: 36vh;
+  }
+  .about_image {
+    margin: 20px 0 40px 0;
+  }
+}
+
+/** Large devices (desktops, less than 1200px) **/
+@media (max-width: 1199.98px) { 
+
+}
+
+/** X-Large devices (large desktops, less than 1400px) **/
+@media (max-width: 1399.98px) { 
+
 }
