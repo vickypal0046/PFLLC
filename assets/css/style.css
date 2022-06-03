@@ -2866,12 +2866,10 @@ section {
   margin-top: 10px;
 }
 .ui-ux-box{
-  height: 350px;
+  height: auto;
   /* border: 1px solid #ed1c24; */
   border-radius: 20px;
   padding: 30px;
-  background: #fff;
-
 }
 .ui-ux-bottom .row .col-md-4:hover .ui-ux-box{
   margin-top: -10px;
