@@ -2893,6 +2893,23 @@ section {
 }
 
 
+@media only screen and (max-width: 991px){
+  .testing-bg{
+    background: none;
+  }
+  .testing-bg .col-md-6{
+    width: 100%;
+  }
+  .testing-left-middle {
+    padding-right: 0px;
+  }
+  .testing-right-middle {
+    padding-left: 0px;
+  }
+}
+
+
+
 
 /*------------ Consultings end------------------ */
 
