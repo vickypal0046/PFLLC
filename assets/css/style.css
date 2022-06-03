@@ -2114,6 +2114,21 @@ section {
       padding-top: 25px;
       font-size: 24px
   }
+  .features-screen{
+    display: none;
+  }
+  .ui-ux-bottom {
+    margin-bottom: 50px;
+  }
+  .ui-ux-bottom .row {
+    margin: 0px !important;
+  }
+  
+}
+@media (min-width:768px){
+  .left-hide-show{
+    display: none;
+  }
 }
 
 .team-boxed .intro {
@@ -2916,6 +2931,31 @@ section {
   }
   .testing-right-middle {
     padding-left: 0px;
+  }
+  .testing-left{
+    margin-right: 0px;
+  }
+  .testing-right{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .testing-left{
+    text-align: left !important;
+  }
+  .testing-left .col-md-10 ,.testing-right .col-md-10{
+    width: 80%;
+  }
+  .testing-left .col-md-2 ,.testing-right .col-md-2{
+    width: 20%;
+  }
+  .testing-left .para-margin p{
+    padding-left: 0px !important;
+  }
+  .left-hide-show{
+    display: block;
+  }
+  .right-hide-show{
+    display: none;
   }
 }
 
