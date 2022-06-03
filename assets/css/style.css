@@ -3110,19 +3110,31 @@ section {
   .navbar .getstarted{
     width: max-content;
   }
+  .align-items-center{
+    width:100%
+  }
+
+  .slider {
+      width: 100vw;
+      height: calc(50vh - 80px);
+      display: flex;
+      margin-top: 80px;
+  }
   .slider__text-item-head {
-    top: 20vh;
+    top: 6vh;
     left: 15vw;
   }
   .slider__text-item-info {
-    top: 36vh;
+      top: -4vh;
   }
+  
+ 
   .about_image {
     margin: 20px 0 40px 0;
   }
   .core__main {
     margin-bottom: 2rem;
-    width: 46%;
+    width: 100%;
     padding: 2%;
   }
   .port-container{
