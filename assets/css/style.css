@@ -2917,6 +2917,9 @@ section {
 .technology-page{
   background-color: #f8f9fa;
 }
+.technology-tab ul{
+  margin-bottom: 0 !important;
+}
 .technology-tab li.nav-item {
   width: 16%;
 }
@@ -2950,11 +2953,11 @@ section {
   border-radius: 4px 4px 0 0;
   min-height: 230px;
 }
-.technology-tab li a.nav-link span{
+.technology-tab li a.nav-link img{
   padding: 15px 0 5px;
   color: #666;
 }
-.technology-tab li a.nav-link span.fa{
+.technology-tab li a.nav-link i{
   display: inline-block;
   font-size: 40px;
   width: 100%;
@@ -2966,24 +2969,26 @@ section {
 }
 .technology-tab li a.active{
   background-color: #fff !important;
-  box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+  /* box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset !important; */
   padding-bottom: 30px;
   border-top: 0;
+  margin-top: -20px;
 }
-.technology-tab li a.active div.arrow-down {
-  display: block;
+.technology-tab li a.active i{
+  color: #cfb87c;
 }
-.technology-tab li a.active span  {
-  color: #333;
+.technology-tab li a.active span{
+  color: #555;;
 }
 .tab_content_css{
   border-color: transparent;
   box-shadow: 0 -2px 0 -1px #fff, 0 0 0 1px #ddd;
-  padding: 30px 15px 15px;
+  padding: 45px 15px 15px;
   position: relative;
   background-color: #fff;
   margin-bottom: 50px;
-  width: 95%;
+  width: 95.1%;
+  top: -12px;
 }
 
 .tab_inner_div {
