@@ -3151,7 +3151,7 @@ section {
     margin-top: 0;
   }
   .tab_inner_div .box{
-    width: 47%;
+    width: 47% !important;
   }
   .tab_inner_div .box:nth-of-type(even) {
     margin-right: 0;
@@ -3184,7 +3184,7 @@ section {
     margin-top: 0;
   }
   .tab_inner_div .box{
-    width: 48.3%;
+    width: 48.3% !important;
   }
   .tab_inner_div .box:nth-of-type(even) {
     margin-right: 0;
@@ -3218,7 +3218,7 @@ section {
     margin-top: 0;
   }
   .tab_inner_div .box{
-    width: 48.3%;
+    width: 48.3% !important;
   }
   .tab_inner_div .box:nth-of-type(even) {
     margin-right: 0;
