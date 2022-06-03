@@ -799,7 +799,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 12px 0;
+  padding: 10px 40px;
 }
 #header.header-inner-pages {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1439,8 +1439,24 @@ section {
 
 .core__main {
   margin-bottom: 5rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-
+.core__main:hover a label{
+  cursor: pointer;
+}
+.core__main:hover{
+  background: #fff;
+  box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+  border-radius: 15px;
+}
+.core__description span{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
 .core__icon {
   margin-left: auto;
   margin-right: auto;
