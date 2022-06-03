@@ -2710,11 +2710,11 @@ section {
 }
 
 .ourservices li a{
-  cursor: default;
+  cursor: pointer;
 }
 
 .ourservices li a:hover{
-  color: var(--bs-blue) !important;
+  color: var(--bs-red) !important;
 }
 
 
