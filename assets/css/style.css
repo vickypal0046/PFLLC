@@ -2820,7 +2820,7 @@ section {
 }
 .testing-bg{
   width: 100%;
-  background: url("/assets/img/testing.png") center no-repeat;
+  background: url("../../assets/img/testing.png") center no-repeat;
   background-size: auto 60%;
 
 }
