@@ -2916,6 +2916,10 @@ section {
 
 
 @media only screen and (max-width: 991px){
+  #header {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
   .testing-bg{
     background: none;
   }
@@ -2952,6 +2956,9 @@ section {
   }
   .right-hide-show{
     display: none;
+  }
+  #faqlist1 .accordion-item:last-child {
+    border-bottom: 1px solid rgba(0,0,0,.125);
   }
 }
 
@@ -3165,7 +3172,7 @@ section {
   }
   .core__main {
     margin-bottom: 2rem;
-    width: 100%;
+    width: 90%;
     padding: 2%;
   }
   .port-container{
