@@ -2368,7 +2368,9 @@ section {
   color: #1d293e;
   text-decoration: underline;
 }
-
+.contact_number{
+  text-decoration: none !important;
+}
 .container-fluids {
   margin: 0;
   padding: 0;
