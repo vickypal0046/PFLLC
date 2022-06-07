@@ -2964,6 +2964,7 @@ section {
   border-radius: 50%;
   text-align: center;
   float: left;
+  margin-right: 10px;
 }
 .hce-icon-box i{
   color: #0A0A7A;
