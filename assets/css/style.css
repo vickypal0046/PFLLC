@@ -2978,14 +2978,6 @@ section {
   width: 100%;
   padding: 5px;
 }
-.challenge-ul{
-  padding-left: 80px !important;
-
-}
-.challenge-ul li{
-  list-style: disc !important;
-  padding: 3px 0 3px 5px !important;
-}
 .healthcare-body h5{
   color: #ed1c24;
 }
@@ -2996,6 +2988,16 @@ section {
 }
 .health-care-education .container-sm .col-lg-12 p{
   text-align: center;
+}
+.case-study-list{
+  list-style: disc !important;
+}
+.case-study-list{
+  padding-left: 80px !important;
+}
+.case-study-list li{
+  list-style: disc;
+  padding-left: 5px !important;
 }
 /*------------ Health care education end------------------ */
 
