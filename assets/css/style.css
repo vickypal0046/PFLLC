@@ -2986,6 +2986,9 @@ section {
   list-style: disc !important;
   padding: 3px 0 3px 5px !important;
 }
+.healthcare-body h5{
+  color: #ed1c24;
+}
 /*------------ Health care education end------------------ */
 
 /*------------ Health care education end------------------ */
