@@ -3017,7 +3017,7 @@ section {
 .technology-tab li a.nav-link{
   position: relative;
   text-align: center;
-  padding: 40px 10px;
+  padding: 10px 10px;
   background-color: #eee;
   box-shadow: 0 0 0 1px #ddd !important;
   top: 15px;
@@ -3031,7 +3031,7 @@ section {
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
-  min-height: 230px;
+  min-height: 160px;
 }
 .technology-tab li a.nav-link img{
   padding: 15px 0 5px;
@@ -3045,7 +3045,8 @@ section {
   color: #666;
 }
 .technology-tab li a.nav-link span.tab_text.hidden-xs {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .technology-tab li a.active{
   background-color: #fff !important;
@@ -3084,7 +3085,7 @@ section {
   position: relative;
   width: 32%;
   margin: 0 10px 15px 0;
-  height: 75px;
+  height: 60px;
   background: #fff;
   border-radius: 5px;
   display: inline-block;
