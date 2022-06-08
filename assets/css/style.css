@@ -2989,6 +2989,14 @@ section {
 .healthcare-body h5{
   color: #ed1c24;
 }
+.health-care-education .container-sm .col-lg-12 .bi-geo{
+  color: #ed1c24;
+  font-size: 24px;
+  padding-right: 10px;
+}
+.health-care-education .container-sm .col-lg-12 p{
+  text-align: center;
+}
 /*------------ Health care education end------------------ */
 
 /*------------ Health care education end------------------ */
