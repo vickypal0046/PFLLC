@@ -416,10 +416,13 @@ h6 {
   font-weight: 400;
   color: #fff;
 }
+.navbar .getstarted {
+    color: #fff !important;
+  } 
 .navbar .getstarted:focus:hover,
 .navbar .getstarted:hover {
-  color: #fff;
-  background: #e1444d;
+    color: #fff !important;
+    background: #0a0a7a;
 }
 .navbar .dropdown ul {
   display: block;
