@@ -2292,7 +2292,7 @@ section {
   top: -1px;
   left: calc(50% - 20px);
 }
-.technology-tab li a.nav-link {
+.technology-tab li a {
   position: relative;
   text-align: center;
   padding: 10px 10px;
