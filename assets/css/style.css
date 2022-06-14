@@ -2290,6 +2290,7 @@ section {
   border-top: 22px solid #ddd;
   position: absolute;
   top: -1px;
+  background: #eee;
   left: calc(50% - 20px);
 }
 .technology-tab li a {
