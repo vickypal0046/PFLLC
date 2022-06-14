@@ -56,7 +56,6 @@ body {
   will-change: transform;
   transform-style: preserve-3d;
   pointer-events: none;
-  transform: translateZ(var(--z-distance));
 }
 .slider__images {
   overflow: hidden;
@@ -304,41 +303,13 @@ body {
     content: "";
     background-image: var(--arrow);
     background-size: cover;
-    width: 8vw;
-    height: 8vw;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .slider__nav-arrow--left {
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7) 0,
-      transparent 100%
-    );
-  }
-  .slider__nav-arrow--left:active {
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.9) 0,
-      transparent 100%
-    );
-  }
-  .slider__nav-arrow--right {
-    background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.7) 0,
-      transparent 100%
-    );
-  }
-  .slider__nav-arrow--right:active {
-    background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.9) 0,
-      transparent 100%
-    );
-  }
+  
 }
 :root {
   --bs-blue: #0a0a7a;
@@ -2578,7 +2549,7 @@ section {
   align-items: center;
 }
 .india-contact .col-md-6:nth-child(2) {
-  margin-left: 20px;
+  margin-left:   20px;
 }
 @media (max-width: 768px) {
   .india-contact {
