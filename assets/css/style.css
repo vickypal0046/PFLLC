@@ -1742,8 +1742,10 @@ section {
 }
 .contact i {
   color: #ed1c24;
-  padding-right: 15px;
   font-size: 1.5rem;
+}
+.contact .icon{
+    margin-right: 15px;
 }
 .map {
   margin-bottom: 2rem;
@@ -2558,6 +2560,10 @@ section {
   .india-contact .col-md-6 {
     width: 90%;
     margin-left: 0px !important;
+  }
+  iframe{
+      width: auto;
+      height: auto;
   }
 }
 .india-contact .col-md-6 p {
