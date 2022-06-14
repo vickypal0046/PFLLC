@@ -2311,6 +2311,7 @@ section {
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
   min-height: 160px;
+  background: #eee !important;
 }
 .technology-tab li a.nav-link img {
   padding: 15px 0 5px;
