@@ -2146,21 +2146,18 @@ section {
 .ui-ux .col-md-8 h5 {
   color: #ed1c24;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 40px;
 }
-.ui-ux .col-md-8 p {
-    margin-bottom: 30px;
-  }
 .ui-ux-bottom .row {
-  margin: 20px 0;
+  margin: 50px 0;
 }
 .ui-ux-bottom .row .col-md-4 {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .ui-ux-box {
   height: auto;
   border-radius: 20px;
-  padding: 10px 30px;
+  padding: 30px;
 }
 .ui-ux-bottom .row .col-md-4:hover .ui-ux-box {
   box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
@@ -2195,7 +2192,6 @@ section {
     padding-left: 0;
   }
   .testing-left {
-    margin-top: 0;
     margin-right: 0;
   }
   .testing-right {
@@ -2285,9 +2281,6 @@ section {
 .technology-tab li.nav-item {
   width: 16.66%;
 }
-.technology-tab li.nav-item a{
-    border-radius: 4px !important;
-}
 .technology-tab li div.arrow-down {
   display: none;
   width: 0;
@@ -2297,13 +2290,14 @@ section {
   border-top: 22px solid #ddd;
   position: absolute;
   top: -1px;
-  background: #eee;
   left: calc(50% - 20px);
 }
-.technology-tab li a {
+.technology-tab li a.nav-link {
   position: relative;
   text-align: center;
   padding: 10px 10px;
+  background-color: #eee;
+  box-shadow: 0 0 0 1px #ddd !important;
   top: 15px;
   transition: top 0.2s !important;
   border-bottom: 0;
@@ -2313,8 +2307,10 @@ section {
   color: #333 !important;
   display: block;
   line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
   min-height: 160px;
-  background: #eee !important;
+    -webkit-appearance: none;
 }
 .technology-tab li a.nav-link img {
   padding: 15px 0 5px;
@@ -2417,9 +2413,6 @@ section {
   color: #fff;
 }
 @media (max-width: 575.98px) {
-  .technology-tab li.nav-item a{
-    border-radius: 0px !important;
-  }
   .navbar .getstarted {
     width: max-content;
   }
@@ -2456,7 +2449,6 @@ section {
   .technology-tab li a.nav-link {
     padding: 25px 10px;
     min-height: 210px;
-    border-radius: 0px !important;
   }
   .technology-tab li a.active {
     margin-top: 0;
@@ -2469,9 +2461,6 @@ section {
   }
 }
 @media (max-width: 767.98px) {
-  .technology-tab li.nav-item a{
-    border-radius: 0px !important;
-   }
   .navbar .getstarted {
     width: max-content;
   }
@@ -2494,7 +2483,6 @@ section {
   }
   .technology-tab li a.active {
     margin-top: 0;
-
   }
   .tab_inner_div .box {
     width: 48.3% !important;
@@ -2519,16 +2507,10 @@ section {
   }
   .technology-tab li.nav-item {
     width: 33.33%;
-    border-radius: 0px !important;
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
   }
   .technology-tab li a.nav-link {
     padding: 25px 10px;
     min-height: 210px;
-    border-radius: 0px !important;
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
   }
   .technology-tab li a.active {
     margin-top: 0;
@@ -2583,9 +2565,6 @@ section {
   iframe{
       width: auto;
       height: auto;
-  }
-  .section-header{
-      padding-bottom: 0px;
   }
 }
 .india-contact .col-md-6 p {
