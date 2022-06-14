@@ -2294,9 +2294,10 @@ section {
   border-top: 22px solid #ddd;
   position: absolute;
   top: -1px;
+  background: #eee;
   left: calc(50% - 20px);
 }
-.technology-tab li a.nav-link {
+.technology-tab li a {
   position: relative;
   text-align: center;
   padding: 10px 10px;
@@ -2314,6 +2315,7 @@ section {
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
   min-height: 160px;
+  background: #eee !important;
 }
 .technology-tab li a.nav-link img {
   padding: 15px 0 5px;
@@ -2452,6 +2454,7 @@ section {
   .technology-tab li a.nav-link {
     padding: 25px 10px;
     min-height: 210px;
+    border-radius: 0px !important;
   }
   .technology-tab li a.active {
     margin-top: 0;
@@ -2486,6 +2489,7 @@ section {
   }
   .technology-tab li a.active {
     margin-top: 0;
+
   }
   .tab_inner_div .box {
     width: 48.3% !important;
@@ -2510,10 +2514,16 @@ section {
   }
   .technology-tab li.nav-item {
     width: 33.33%;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
   }
   .technology-tab li a.nav-link {
     padding: 25px 10px;
     min-height: 210px;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
   }
   .technology-tab li a.active {
     margin-top: 0;
