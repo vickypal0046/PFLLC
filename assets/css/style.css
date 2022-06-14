@@ -2281,6 +2281,9 @@ section {
 .technology-tab li.nav-item {
   width: 16.66%;
 }
+.technology-tab li.nav-item a{
+    border-radius: 4px !important;
+}
 .technology-tab li div.arrow-down {
   display: none;
   width: 0;
@@ -2412,6 +2415,9 @@ section {
   color: #fff;
 }
 @media (max-width: 575.98px) {
+  .technology-tab li.nav-item a{
+    border-radius: 0px !important;
+  }
   .navbar .getstarted {
     width: max-content;
   }
@@ -2461,6 +2467,9 @@ section {
   }
 }
 @media (max-width: 767.98px) {
+  .technology-tab li.nav-item a{
+    border-radius: 0px !important;
+   }
   .navbar .getstarted {
     width: max-content;
   }
