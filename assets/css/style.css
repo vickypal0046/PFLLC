@@ -2448,6 +2448,7 @@ section {
   .technology-tab li a.nav-link {
     padding: 25px 10px;
     min-height: 210px;
+    border-radius: 0px !important;
   }
   .technology-tab li a.active {
     margin-top: 0;
@@ -2482,6 +2483,7 @@ section {
   }
   .technology-tab li a.active {
     margin-top: 0;
+
   }
   .tab_inner_div .box {
     width: 48.3% !important;
@@ -2506,6 +2508,9 @@ section {
   }
   .technology-tab li.nav-item {
     width: 33.33%;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
   }
   .technology-tab li a.nav-link {
     padding: 25px 10px;
