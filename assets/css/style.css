@@ -2146,18 +2146,21 @@ section {
 .ui-ux .col-md-8 h5 {
   color: #ed1c24;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 20px;
 }
+.ui-ux .col-md-8 p {
+    margin-bottom: 30px;
+  }
 .ui-ux-bottom .row {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .ui-ux-bottom .row .col-md-4 {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .ui-ux-box {
   height: auto;
   border-radius: 20px;
-  padding: 30px;
+  padding: 10px 30px;
 }
 .ui-ux-bottom .row .col-md-4:hover .ui-ux-box {
   box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
@@ -2192,6 +2195,7 @@ section {
     padding-left: 0;
   }
   .testing-left {
+    margin-top: 0;
     margin-right: 0;
   }
   .testing-right {
@@ -2293,6 +2297,7 @@ section {
   border-top: 22px solid #ddd;
   position: absolute;
   top: -1px;
+  background: #eee;
   left: calc(50% - 20px);
 }
 .technology-tab li a {
@@ -2313,6 +2318,7 @@ section {
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
   min-height: 160px;
+  background: #eee !important;
 }
 .technology-tab li a.nav-link img {
   padding: 15px 0 5px;
@@ -2581,6 +2587,9 @@ section {
   iframe{
       width: auto;
       height: auto;
+  }
+  .section-header{
+      padding-bottom: 0px;
   }
 }
 .india-contact .col-md-6 p {
