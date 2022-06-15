@@ -341,7 +341,7 @@ h6 {
 #header {
   background: #fff;
   transition: all 0.5s;
-  z-index: 99999;
+  z-index: 999;
   padding: 0 40px;
 }
 @media (max-width: 992px) {
