@@ -2121,6 +2121,7 @@ section {
   text-align: right;
 }
 .testing-left .row {
+  height: 150px;
   margin-top: 30px;
 }
 .testing-right {
@@ -2128,6 +2129,7 @@ section {
   text-align: left;
 }
 .testing-right .row {
+  height: 150px;
   margin-top: 30px;
 }
 .testing-left .para-margin p {
@@ -2223,6 +2225,9 @@ section {
   }
   #faqlist1 .accordion-item:last-child {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .testing-left .row, .testing-right .row{
+    height: auto;
   }
 }
 .healthcare-body ul {
@@ -2582,4 +2587,12 @@ section {
   .india-contact .col-md-6:nth-child(2) {
     margin-left: 0px;
   }
+}
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  .testing-left .row, .testing-right .row{
+    height: 200px;
+  }
+}
+.mobile-web-consulting .container-sm .row .col-lg-12 p{
+  margin-bottom: 0px;
 }
