@@ -2152,7 +2152,7 @@ section {
   margin-top: 40px;
 }
 .ui-ux-bottom .row {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .ui-ux-bottom .row .col-md-4 {
   margin-top: 10px;
@@ -2568,6 +2568,18 @@ section {
   iframe{
       width: auto;
       height: auto;
+  }
+  .ui-ux .container-sm .row .col-md-8 h5{
+    margin-top:10px;
+  }
+  .ui-ux-box{
+    padding: 0px 30px;
+  }
+  .testing-left{
+    margin-top: 50px;
+  }
+  .india-contact .col-md-6:nth-child(2){
+    margin-top: 10px;
   }
 }
 .india-contact .col-md-6 p {
