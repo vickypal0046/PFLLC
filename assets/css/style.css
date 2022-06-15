@@ -2227,6 +2227,7 @@ section {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
   .testing-left .row, .testing-right .row{
+    margin-top: 0px;
     height: auto;
   }
 }
@@ -2589,10 +2590,16 @@ section {
   }
 }
 @media screen and (min-device-width: 992px) and (max-device-width: 1200px) {
-  .testing-left .row, .testing-right .row{
+  .testing-left .row{
+    height: 200px;
+  }
+  .testing-right .row{
     height: 200px;
   }
 }
 .mobile-web-consulting .container-sm .row .col-lg-12 p{
   margin-bottom: 0px;
+}
+.accordion-body{
+  font-size: 16px;
 }
