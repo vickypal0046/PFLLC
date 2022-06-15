@@ -56,6 +56,7 @@ body {
   will-change: transform;
   transform-style: preserve-3d;
   pointer-events: none;
+  transform: translateZ(0vw) !important;
 }
 .slider__images {
   overflow: hidden;
